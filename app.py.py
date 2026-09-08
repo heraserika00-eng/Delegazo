@@ -4,13 +4,13 @@ from PIL import Image
 import io
 import uuid
 
-st.title("🎟️ Compra de Entradas - Farra Déleg")
+st.title("🎟️ Compra de Entradas - Halloween Sangriento by Delegazo MC")
 
 # Formulario de Compra
 with st.form("compra_form"):
     nombre = st.text_input("Nombre y Apellido")
-    cedula = st.text_input("Cédula / DNI")
-    correo = st.text_input("Correo Electrónico")
+    cedula = st.text_input("Cédula ")
+    celular = st.text_input("número de celular")
     comprar = st.form_submit_button("Generar Entrada")
 
 if comprar and nombre and cedula:
