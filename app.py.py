@@ -12,7 +12,7 @@ st.set_page_config(page_title="Farra Déleg - Entradas", page_icon="🎟️")
 if "entradas" not in st.session_state:
     st.session_state["entradas"] = []
 
-st.title("🎟️ Farra Déleg - Venta de Entradas")
+st.title("🎟️ Hallowen Sangriento by DELEGAZO MC - Venta de Entradas")
 
 # Menú superior para cambiar entre Comprador y Administrador
 modo = st.sidebar.radio("Navegación", ["Comprar Entrada", "Panel de Administración"])
