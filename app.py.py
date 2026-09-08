@@ -26,7 +26,7 @@ if modo == "Comprar Entrada":
 
     with st.form("form_compra"):
         nombre = st.text_input("Nombre y Apellido")
-        cedula = st.text_input("Cédula / DNI")
+        cedula = st.text_input("Cédula ")
         correo = st.text_input("Correo Electrónico")
         
         # Opciones de entradas solicitadas
